@@ -1,0 +1,102 @@
+[
+    {
+      "key": 0,
+      "title": "",
+      "icon":"faHome",
+      "position": {
+        "x": -180,
+        "y": 105,
+        "z": -190
+      },
+      "target": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+    "lookAt": {
+      "x": 7.37,
+      "y": 3.27,
+      "z": 0.36
+    }
+    },
+    {
+      "key": 1,
+      "title": "CL",
+      "icon":"faCrutch",
+      "position": {
+        "x": 0,
+        "y": 10,
+        "z": -50
+      },
+      "target": {
+        "x": -10,
+        "y": 5,
+        "z": 10
+      },
+      "lookAt": {
+        "x": -12.482,
+        "y": 2.852,
+        "z": -0.981
+      }
+    },
+    {
+      "key": 2,
+      "title": "CL",
+      "icon":"faDharmachakra",
+      "position": {
+        "x": -40,
+        "y": 20,
+        "z": -40
+      },
+      "target": {
+        "x": -40,
+        "y": 20,
+        "z": 10
+      },
+      "lookAt": {
+        "x": -42.564,
+        "y": 20,
+        "z": 13.992
+      }
+    },
+    {
+      "key": 3,
+      "title": "SL",
+      "icon":"faDharmachakra",
+      "position": {
+        "x": 0,
+        "y": 10,
+        "z": -55
+      },
+      "target": {
+        "x": 10,
+        "y": 20,
+        "z": 0
+      },
+      "lookAt": {
+        "x": 11.855,
+        "y": 20,
+        "z": 13.992
+      }
+    },
+    {
+      "key": 4,
+      "title": "SL",
+      "icon":"faKaaba",
+      "position": {
+        "x": -70,
+        "y": 10,
+        "z": -40
+      },
+      "target": {
+        "x": -60,
+        "y": 5,
+        "z": 20
+      },
+      "lookAt": {
+        "x": -76.166,
+        "y": 2.811,
+        "z": 33.721
+      }
+    }
+]

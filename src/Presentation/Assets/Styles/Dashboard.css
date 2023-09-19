@@ -1,0 +1,49 @@
+#dashboard{
+    position: absolute;
+    bottom: 5%;
+    height: 90%;
+    width: 100%;
+    background-image: linear-gradient(#575757, #1f1f1f);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+.annotationDescription {
+    pointer-events: none;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    padding: 1em;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.66);
+    border-radius: 0.5em;
+    display: block;
+  }
+  
+#annotationsPanel {
+    position: absolute;
+    top: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} 
+  
+#annotationsPanel div {
+    padding: 0;
+    list-style-type: none;
+}
+.annotationButton {
+    width: 65px;
+    height: auto;
+    background-color: rgba(0.25, 0.25, 0.25, 0.5);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: monospace;
+  }
