@@ -1,0 +1,26 @@
+[
+    {
+        "key": 0, 
+        "value":60,
+        "unit":"Hz",
+        "title":"HP Pump Speed",
+        "warn":0,
+        "alm":0
+    },
+    {
+        "key": 1, 
+        "value":75,
+        "unit":"Bar",
+        "title":"HP Pump Pressure",
+        "warn":70,
+        "alm":80
+    },
+    {
+        "key": 2, 
+        "value":55,
+        "unit":"Bar",
+        "title":"HP Pump Pressure",
+        "warn":70,
+        "alm":80
+    }
+]

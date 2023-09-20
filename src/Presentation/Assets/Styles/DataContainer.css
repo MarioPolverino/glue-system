@@ -1,0 +1,22 @@
+.DataContainer{
+  backdrop-filter: blur(10px);
+  background: rgba(160,160,160,0.1);    
+  z-index: 99999999; /* serve per far sparire il tooltip sotto di lui nell'immagine 3D */
+  text-align: center;
+  color: white;
+}
+.Widget-row{
+    display: flex;
+    align-items: stretch;
+    width: 90%;        
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 7px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 5%;
+}
+
+.DataContainer h2{
+  margin: 10%;
+}

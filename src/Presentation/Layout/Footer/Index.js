@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../Assets/Styles/Footer.css';
+import Menu from '../Menu/Index';
 
 function Footer(){
     return(
         <div id='footer'>
             <div className='bar'>
-            Footer
+                <Menu />
             </div> 
         </div>
     )

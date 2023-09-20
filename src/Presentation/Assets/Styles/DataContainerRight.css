@@ -1,0 +1,10 @@
+#DataContainerRight{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right:0;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px 0 0 20px;
+}

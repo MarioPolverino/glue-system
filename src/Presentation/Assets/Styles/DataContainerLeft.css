@@ -1,0 +1,13 @@
+#DataContainerLeft{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left:0;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 20px 20px 0;
+}
+.DataContainerLeft-unload{
+    left: -150%;
+}

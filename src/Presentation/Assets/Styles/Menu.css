@@ -1,0 +1,210 @@
+.menu-container
+{
+    /* his position */
+    position: absolute;
+    bottom: 145%;
+
+    /*config position inner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-main-button
+{
+    /* Shape */
+    height: 2.8rem;
+    aspect-ratio: 1;
+    border-radius: 50% 50% 0 0;
+    cursor:pointer;
+   
+    /*config position inner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* Design color */
+     color:#d3d3d3; 
+
+    width: 5.6rem;
+    height: 2.8rem;
+    background-image: linear-gradient(#00FFFF,#009191, #005f5f,#292929);
+    border-radius: 2.8rem 2.8rem 0 0;
+    position: absolute;
+    transform: translateY(5%);
+    /* Position when is close */
+    /* transform: rotate(45deg); */
+
+    transition: all 0.6s ease;
+    z-index: 999;
+}
+
+.menu-secondary-button
+{
+    /* his position */
+    position: absolute;
+
+    /* Shape */
+    height: 2.8rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-style: normal!important;
+
+    /*config position inner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+     /* Design color */
+    background: rgb(99, 99, 99);
+    color: #fff;
+    cursor: pointer;
+    /* Invisible when is close */
+    opacity: 0;
+
+    transition: all 0.3s ease;
+}
+
+.menu-secondary-button:hover
+{
+    scale: 110%;
+    transition: .5s;
+}
+
+.open  .menu-page-1
+{
+    /* Position when is open */
+    transform: translateX(-200px) translateY(-40px);
+    /* Visible when is open */
+    opacity: 1;
+}
+.open  .menu-page-2
+{
+    /* Position when is open - P.S.= It's in sequence*/ 
+    transform: rotate(45deg)  translateX(-194px) translateY(-4px) rotate(-45deg);
+    /* Visible when is open */
+    opacity: 1;
+}
+.open  .menu-page-3
+{
+    /* Position when is open - P.S.= It's in sequence*/ 
+    transform: rotate(90deg) translateX(-185px) translateY(20px) rotate(-90deg);
+    /* Visible when is open */
+    opacity: 1;
+}
+.open .menu-page-4
+{
+     /* Position when is open - P.S.= It's in sequence*/ 
+    transform: rotate(135deg)  translateX(-165px) translateY(30px) rotate(-135deg);
+    /* Visible when is open */
+    opacity: 1;
+}
+.open .menu-page-5
+{
+    /* Position when is open - P.S.= It's in sequence*/ 
+    transform: translateX(160px) translateY(-40px);
+    /* Visible when is open */
+    opacity: 1;
+}
+/* ============================================ */
+.menu-secondary-button-title
+{
+    position: absolute;
+    bottom: -45%;
+    color: #fff;
+}
+
+.open .menu-semi-circle-inner
+{
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+.open .menu-semi-circle-outer 
+{
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+.menu-semi-circle-inner
+{
+    position: absolute;
+
+    width: 15.6rem;
+    height: 7.8rem;
+    border-radius: 15.6rem 15.6rem 0 0;
+    transform: translateY(-30%);
+
+    opacity: 0;
+    background: rgba(0,0,0,0.25);
+/*     box-shadow: inset 0 5px 5px rgba(231, 231, 231, 0.267),
+    0px 2px 15px rgba(0,0,0,0.3);    */
+  }
+
+.menu-semi-circle-outer 
+{
+    position: absolute;
+
+    width: 30rem;
+    height: 15rem;
+    border-radius: 30rem 30rem 0 0;
+    transform: translateY(-40%);
+
+    opacity: 0;
+    background: rgba(66, 66, 66, 0.5);
+    backdrop-filter: blur(10px);
+/*     box-shadow: inset 0 5px 5px rgba(231, 231, 231, 0.267),
+    0px 2px 15px rgba(0,0,0,0.3);  */
+  }
+
+  .menu-outer-circle-secondary-button
+  {
+    position: absolute;
+    /* Shape */
+    height: 4rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    filter: blur(2px);
+  }
+
+  .menu-outer-circle-main-button
+  {
+    position: absolute;
+    /* Shape */
+/*     height: 5rem;
+    aspect-ratio: 1;
+    border-radius: 50%; */
+
+
+    width: 7rem;
+    height: 3.5rem;
+    border-radius: 7rem 7rem 0 0;
+    transform: translateY(-7%);
+
+    background-image: linear-gradient(rgba(231,231,231,0.7),rgba(231,231,231,0.3), rgba(231,231,231,0.2),rgba(231,231,231,0.1));
+	box-shadow: inset 0 5px 5px rgba(231, 231, 231, 0.267),
+                0px 2px 15px rgba(0,0,0,0.3); 
+  }
+  .menu-outer-circle-external-main-button
+  {
+    position: absolute;
+    /* Shape */
+/*     height: 7rem;
+    aspect-ratio: 1;
+    border-radius: 50%; */
+
+    width: 9rem;
+    height: 4.5rem;
+    border-radius: 9rem 9rem 0 0;
+    transform: translateY(-16%);
+
+
+    background-image: linear-gradient(rgba(175,175,175,0.7),rgba(175,175,175,0.3), rgba(139, 139, 139, 0.2),rgba(231,231,231,0.1));
+	box-shadow: inset 0 5px 5px rgba(231, 231, 231, 0.267),
+                0px 2px 15px rgba(0,0,0,0.3); 
+  }
+/* ============================================ */
+.active i{
+    color: var(--light-blue)!important;
+}
