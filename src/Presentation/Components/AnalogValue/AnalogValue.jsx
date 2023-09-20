@@ -23,20 +23,20 @@ function AnalogValue(props){
      const OneColorStyle = {
          background: 
          'conic-gradient(var(--light-blue) 0deg, var(--light-blue) ' + degree+ 'deg'+
-         ',#3d3d3d '+ degree+ 'deg'+', #3d3d3d 270deg)',
+         ',#3d3d3d '+ degree+ 'deg, #3d3d3d 270deg)',
      };
      const WarningColorStyle= {
          background: 
          'conic-gradient(var(--light-blue) 0deg, var(--light-blue) ' + degreeWarStart+ 'deg'+
-         ',var(--yellow) '+ degreeWar+ 'deg'+',var(--yellow) '+ degree+ 'deg'+
-         ',#3d3d3d '+ degree+ 'deg'+', #3d3d3d 270deg)',
+         ',var(--yellow) '+ degreeWar+ 'deg,var(--yellow) '+ degree+ 'deg'+
+         ',#3d3d3d '+ degree+ 'deg, #3d3d3d 270deg)',
      };
      const AlarmColorStyle= {
          background: 
          'conic-gradient(var(--light-blue) 0deg, var(--light-blue) ' + degreeWarStart+ 'deg'+
-         ',var(--yellow) '+ degreeWar+ 'deg'+',var(--yellow) '+ degreeAlmStart+ 'deg'+
-         ',var(--red) '+ degreeAlm+ 'deg'+',var(--red) '+ degree+ 'deg'+
-         ',#3d3d3d '+ degree+ 'deg'+', #3d3d3d 270deg)',
+         ',var(--yellow) '+ degreeWar + 'deg,var(--yellow) '+ degreeAlmStart+ 'deg'+
+         ',var(--red) '+ degreeAlm + 'deg,var(--red) '+ degree+ 'deg'+
+         ',#3d3d3d '+ degree + 'deg, #3d3d3d 270deg)',
      };
  
      // Check If I have a Threshold

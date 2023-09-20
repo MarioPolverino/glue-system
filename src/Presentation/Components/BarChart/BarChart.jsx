@@ -6,9 +6,9 @@ import {
     YAxis,
     CartesianGrid,
     Tooltip,
-    Legend,
+    // Legend,
     Label,
-    LabelList, 
+    // LabelList, 
     ResponsiveContainer
   } from "recharts";
 import '../../Assets/Styles/BarChart.css';

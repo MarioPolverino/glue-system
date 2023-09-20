@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import React , {useState} from "react";
 import '../../Assets/Styles/Menu.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

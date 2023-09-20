@@ -1,8 +1,9 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 //Camera.tsx
 import { OrbitControls } from "@react-three/drei"
 import { useThree } from "@react-three/fiber"
 import gsap from "gsap"
-import { useEffect, useRef } from "react"
+import { useEffect, useRef} from "react"
 import { Vector3 } from "three"
 
 const CameraControls = ({ position, target }) => {
@@ -41,7 +42,7 @@ const CameraControls = ({ position, target }) => {
 
   useEffect(() => {
     cameraAnimate()
-  }, [target, position])
+  }, [target, position, cameraAnimate])
   return (
     <OrbitControls
       ref={ref}

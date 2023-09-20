@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import annotations from '../../Data/annotations.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
